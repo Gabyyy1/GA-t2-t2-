@@ -128,11 +128,12 @@
 	void crossover(bool population[][33],int dimensions,int pop_length)
 	{
 		int  dice_roll1, dice_roll2;
-		for (int i = 0; i < pop_length-1; i++)
+		for (int i = 0; i < 100; i++)
 		{
-			//dice_roll1 = round(rand_integer_in_interval(0,100*dimensions));
-			//dice_roll2 = round(rand_integer_in_interval(0,100*dimensions));
-			cross(population[i], population[i+1], dimensions);
+			for (int j = 0; j < dimensions; j++)
+			{
+				cross(population[i*dimensions+j], population[(i + 1)*dimensions+j], dimensions);
+			}
 		}
 	}
 

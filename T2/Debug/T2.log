@@ -1,9 +1,11 @@
-﻿  Genetic_Alg.cpp
+﻿  Functions.cpp
+C:\Users\Alexa\source\repos\T2\T2\Functions.cpp(20,33): warning C4101: 'nr': unreferenced local variable
+C:\Users\Alexa\source\repos\T2\T2\Functions.cpp(78,17): warning C4018: '<': signed/unsigned mismatch
+  Genetic_Alg.cpp
 C:\Users\Alexa\source\repos\T2\T2\Genetic_Alg.cpp(16,8): warning C4101: 'vect_bits': unreferenced local variable
 C:\Users\Alexa\source\repos\T2\T2\Genetic_Alg.cpp(74,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\Alexa\source\repos\T2\T2\Genetic_Alg.cpp(130,20): warning C4101: 'dice_roll2': unreferenced local variable
 C:\Users\Alexa\source\repos\T2\T2\Genetic_Alg.cpp(130,8): warning C4101: 'dice_roll1': unreferenced local variable
-C:\Users\Alexa\source\repos\T2\T2\Genetic_Alg.cpp(158,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  T2.cpp
+C:\Users\Alexa\source\repos\T2\T2\Genetic_Alg.cpp(159,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating Code...
   T2.vcxproj -> C:\Users\Alexa\source\repos\T2\Debug\T2.exe

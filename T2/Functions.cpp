@@ -43,7 +43,7 @@ double Michalewicz(double x[], int d)
 	int m = 10;
 	for (int i = 0; i < d; i++)
 	{
-		nr = i + 1;
+		nr = (double)i + 1;
 		res -= (sin(x[i]) * pow(sin((nr * x[i] * x[i]) / pi), 20));
 	}
 	return res;
